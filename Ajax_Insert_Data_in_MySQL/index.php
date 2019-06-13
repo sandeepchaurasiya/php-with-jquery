@@ -58,6 +58,7 @@ $result = mysqli_query($connect, $query);
     <form method="post" id="insert_form">
      <label>Enter Employee Name</label>
      <input type="text" name="name" id="name" class="form-control" />
+	 <small id="error"></small>
      <br />
      <label>Enter Employee Address</label>
      <textarea name="address" id="address" class="form-control"></textarea>
@@ -108,7 +109,8 @@ $(document).ready(function(){
   event.preventDefault();  
   if($('#name').val() == "")  
   {  
-   alert("Name is required");  
+   //$("#error").html("<p class='text-danger'>Please Enter Username</p>"); 
+    alert("Name is required"); 
   }  
   else if($('#address').val() == '')  
   {  

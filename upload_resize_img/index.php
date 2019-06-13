@@ -14,9 +14,9 @@
    <h3>Upload & Resize Image using Ajax Jquery PHP without Page Refresh</h3><br />  
    <form method="post" id="upload_image" enctype="multipart/form-data">
     <label>Select File <br />  
-    <input type="file" name="image_upload" id="image_upload" />
+    <input type="file" name="image_upload"  id="image_upload" />
     <br />
-    <input type="submit" name="upload" id="upload" class="btn btn-info" value="Upload" />
+    <input type="submit" name="upload" id="upload"  class="btn btn-info" value="Upload" />
    </form>
    <br />  
    <br />  

@@ -32,7 +32,8 @@
                      languages.push($(this).val());  
                 }  
            });  
-           languages = languages.toString();  
+           languages = languages.toString(); 
+			//alert(languages);
            $.ajax({  
                 url:"insert.php",  
                 method:"POST",  
