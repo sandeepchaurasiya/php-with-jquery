@@ -38,7 +38,7 @@ $(document).ready(function(){
    }  
    else  
    {  
-    passwordField.attr('type', 'password');  
+    passwordField.attr('<typ></typ>e', 'password');  
     $(this).text('Show Password');  
    }
   }

@@ -33,15 +33,15 @@
                 }  
            });  
            languages = languages.toString(); 
-			//alert(languages);
-           $.ajax({  
-                url:"insert.php",  
-                method:"POST",  
-                data:{languages:languages},  
-                success:function(data){  
-                     $('#result').html(data);  
-                }  
-           });  
+			alert(languages);
+           // $.ajax({  
+                // url:"insert.php",  
+                // method:"POST",  
+                // data:{languages:languages},  
+                // success:function(data){  
+                     // $('#result').html(data);  
+                // }  
+           // });  
       });  
  });  
  </script>  
